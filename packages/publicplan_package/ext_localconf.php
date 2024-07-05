@@ -1,5 +1,10 @@
 <?php
 defined('TYPO3') or die('Access denied.');
+
+// show application context in the backend
+$applicationContext = \TYPO3\CMS\Core\Core\Environment::getContext();
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['sitename'] .= ' (' . $applicationContext . ')';
+
 /***************
  * Add default RTE configuration
  */

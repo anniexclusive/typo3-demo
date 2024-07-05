@@ -1,4 +1,17 @@
 base: 'https://publicplan.ddev.site'
+baseVariants:
+  -
+    base: 'https://publicplan.de'
+    condition: 'applicationContext == "Production"'
+  -
+    base: 'https://beta.publicplan.de'
+    condition: 'applicationContext == "Production/Beta"'
+  -
+    base: 'https://staging.publicplan.de/'
+    condition: 'applicationContext == "Production/Staging"'
+  -
+    base: 'https://publicplan.ddev.site'
+    condition: 'applicationContext == "Development"'
 languages:
   -
     title: English

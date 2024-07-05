@@ -20,6 +20,17 @@ styles {
 ### PAGE ###
 ############
 page {
+    logo {
+        file = EXT:publicplan_package/Resources/Public/Images/logo/logo_pp.png
+        height =
+        width = 158
+        alt = publicplan
+        linktitle =
+    }
+
+    favicon {
+        file = EXT:publicplan_package/Resources/Public/Icons/favicon_publicplan.ico
+    }
      fluidtemplate {
         layoutRootPath = EXT:publicplan_package/Resources/Private/Layouts/Page/
         partialRootPath = EXT:publicplan_package/Resources/Private/Partials/Page/

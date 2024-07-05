@@ -1,0 +1,26 @@
+page {
+    includeCSS {
+        bootstrap = EXT:publicplan_package/Resources/Public/Css/vendors/bootstrap.min.css
+        swiper = EXT:publicplan_package/Resources/Public/Css/vendors/swiper-bundle.min.css
+        aos = EXT:publicplan_package/Resources/Public/Css/vendors/aos.css
+        magnific-popup = EXT:publicplan_package/Resources/Public/Css/vendors/magnific-popup.css
+        bootstrap-icons = EXT:publicplan_package/Resources/Public/Fonts/bootstrap-icons/bootstrap-icons.min.css
+        boxicons = EXT:publicplan_package/Resources/Public/Fonts/boxicons/boxicons.min.css
+        main = EXT:publicplan_package/Resources/Public/Css/main.css
+    }
+    includeJSFooterlibs {
+        jquery = EXT:publicplan_package/Resources/Public/JavaScript/vendors/jquery-3.7.1.min.js
+        bootstrap = EXT:publicplan_package/Resources/Public/JavaScript/vendors/bootstrap.bundle.min.js
+        swiper = EXT:publicplan_package/Resources/Public/JavaScript/vendors/swiper-bundle.min.js
+        aos = EXT:publicplan_package/Resources/Public/JavaScript/vendors/aos.js
+        wow = EXT:publicplan_package/Resources/Public/JavaScript/vendors/wow.min.js
+        headhesive = EXT:publicplan_package/Resources/Public/JavaScript/vendors/headhesive.min.js
+        smart = EXT:publicplan_package/Resources/Public/JavaScript/vendors/smart-stick-nav.js
+        jquery-magnific = EXT:publicplan_package/Resources/Public/JavaScript/vendors/jquery.magnific-popup.min.js
+        gsap = EXT:publicplan_package/Resources/Public/JavaScript/vendors/gsap.min.js
+        scroll-plugin = EXT:publicplan_package/Resources/Public/JavaScript/vendors/ScrollToPlugin.min.js
+        scroll-trigger = EXT:publicplan_package/Resources/Public/JavaScript/vendors/ScrollTrigger.min.js
+        gsap-custom = EXT:publicplan_package/Resources/Public/JavaScript/gsap-custom.js
+        main = EXT:publicplan_package/Resources/Public/JavaScript/main.js
+    }
+}

@@ -1,13 +1,16 @@
 ######################
 #### DEPENDENCIES ####
 ######################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
 
 
 ################
 #### HELPER ####
 ################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:publicplan_package/Configuration/TypoScript/Helper/DynamicContent.typoscript">
+@import 'EXT:publicplan_package/Configuration/TypoScript/Helper/DynamicContent.typoscript'
+
+# FRAMEWORK
+@import 'EXT:publicplan_package/Configuration/TypoScript/Bootstrap/setup.typoscript'
 
 
 ##############
@@ -16,7 +19,7 @@
 page = PAGE
 page {
     typeNum = 0
-    shortcutIcon = EXT:publicplan_package/Resources/Public/Icons/favicon.ico
+    shortcutIcon = {$page.favicon.file}
 
     10 = FLUIDTEMPLATE
     10 {
@@ -60,6 +63,11 @@ page {
             1 = {$page.fluidtemplate.layoutRootPath}
         }
         dataProcessing {
+            1 = PublicplanGmbh\PublicplanPackage\DataProcessing\ConstantsProcessor
+            1 {
+                as = theme
+                key = page.theme
+            }
             10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
             10 {
                 references.fieldName = media
@@ -69,6 +77,24 @@ page {
                 levels = 2
                 includeSpacer = 1
                 as = mainnavigation
+            }
+            1553883874 = PublicplanGmbh\PublicplanPackage\DataProcessing\StaticFilesProcessor
+            1553883874 {
+                files {
+                    normal = {$page.logo.file}
+                    inverted = {$page.logo.fileInverted}
+                    alt = {$page.logo.alt}
+                    width = {$page.logo.width}
+                    height = {$page.logo.height}
+                }
+                as = logo
+            }
+        }
+        settings {
+            logo {
+                height = {$page.logo.height}
+                width = {$page.logo.width}
+                linktitle = {$page.logo.linktitle}
             }
         }
     }
