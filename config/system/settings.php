@@ -28,16 +28,27 @@ return [
     'EXTENSIONS' => [
         'backend' => [
             'backendFavicon' => '',
-            'backendLogo' => '',
+            'backendLogo' => 'EXT:publicplan_package/Resources/Public/Images/logo/logo_pp.png',
             'loginBackgroundImage' => '',
             'loginFootnote' => '',
             'loginHighlightColor' => '',
             'loginLogo' => '',
             'loginLogoAlt' => '',
         ],
+        'extension_builder' => [
+            'backupDir' => 'var/tx_extensionbuilder/backups',
+            'backupExtension' => '1',
+            'enableRoundtrip' => '1',
+        ],
         'extensionmanager' => [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
+        ],
+        'publicplan_package' => [
+            'backend' => [
+                'backendFavicon' => 'EXT:publicplan_package/Resources/Public/Icons/favicon_publicplan.ico',
+            ],
+            'backendFavicon' => 'EXT:publicplan_package/Resources/Public/Icons/favicon_publicplan.ico',
         ],
     ],
     'FE' => [

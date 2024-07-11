@@ -10,7 +10,7 @@ declare(strict_types = 1);
 
 namespace PublicplanGmbh\PublicplanPackage\DataProcessing;
 
-use BK2K\BootstrapPackage\Icons\FileIcon;
+use PublicplanGmbh\PublicplanPackage\Icons\FileIcon;
 use BK2K\BootstrapPackage\Service\IconService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;

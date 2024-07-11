@@ -10,7 +10,7 @@ declare(strict_types = 1);
 
 namespace PublicplanGmbh\PublicplanPackage\Icons;
 
-use BK2K\BootstrapPackage\Utility\SvgUtility;
+use PublicplanGmbh\PublicplanPackage\Utility\SvgUtility;
 use TYPO3\CMS\Core\Resource\Exception\ResourceDoesNotExistException;
 use TYPO3\CMS\Core\Resource\FileInterface;
 use TYPO3\CMS\Core\Utility\GeneralUtility;

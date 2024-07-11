@@ -146,7 +146,6 @@
             autoplay: {
                 delay: 4000,
             },
-            autoplay: false,
             breakpoints: {
                 1200: {
                     slidesPerView: 3,

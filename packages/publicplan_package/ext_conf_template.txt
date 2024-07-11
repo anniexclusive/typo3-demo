@@ -1,3 +1,4 @@
 #
 # Extension Configuration template
 #
+backend.backendFavicon = EXT:publicplan_package/Resources/Public/Icons/favicon_publicplan.ico

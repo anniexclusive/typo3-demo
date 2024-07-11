@@ -20,7 +20,9 @@
 		}
 	],
 	"require": {
+		"friendsoftypo3/extension-builder": "v12.0.0-beta.2",
 		"publicplan-gmbh/publicplan-package": "^1.0",
+		"publicplan/publicplanblog": "@dev",
 		"typo3/cms-backend": "^12.4.0",
 		"typo3/cms-belog": "^12.4.0",
 		"typo3/cms-beuser": "^12.4.0",
@@ -46,5 +48,8 @@
 		"typo3/cms-tstemplate": "^12.4.0",
 		"typo3/cms-viewpage": "^12.4.0",
 		"typo3/cms-webhooks": "^12.4.0"
+	},
+	"require-dev": {
+		"symfony/var-dumper": "^6.4"
 	}
 }

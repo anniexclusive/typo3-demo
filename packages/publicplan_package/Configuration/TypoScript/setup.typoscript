@@ -83,9 +83,6 @@ page {
                 files {
                     normal = {$page.logo.file}
                     inverted = {$page.logo.fileInverted}
-                    alt = {$page.logo.alt}
-                    width = {$page.logo.width}
-                    height = {$page.logo.height}
                 }
                 as = logo
             }
@@ -95,6 +92,7 @@ page {
                 height = {$page.logo.height}
                 width = {$page.logo.width}
                 linktitle = {$page.logo.linktitle}
+                alt = {$page.logo.alt}
             }
         }
     }
