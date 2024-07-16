@@ -1035,14 +1035,14 @@ strong {
 }
 
 .team-section-1 {
-  background-image: url("../images/page-team/section-1/background.png");
+  background-image: url("../Images/page-team/section-1/background.png");
   background-size: cover;
   min-height: 650px;
   align-items: center;
 }
 
 .team-section-3 {
-  background-image: url("../images/page-team/section-3/bg-img.png");
+  background-image: url("../Images/page-team/section-3/bg-img.png");
   background-size: cover;
   align-items: center;
   width: 100%;
@@ -1056,7 +1056,7 @@ strong {
 }
 
 .blog-section-1 {
-  background-image: url("../images/page-blog/section-1/bg-img.png");
+  background-image: url("../Images/page-blog/section-1/bg-img.png");
   background-size: cover;
   align-items: center;
   width: 100%;
