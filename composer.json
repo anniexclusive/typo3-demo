@@ -47,7 +47,8 @@
 		"typo3/cms-t3editor": "^12.4.0",
 		"typo3/cms-tstemplate": "^12.4.0",
 		"typo3/cms-viewpage": "^12.4.0",
-		"typo3/cms-webhooks": "^12.4.0"
+		"typo3/cms-webhooks": "^12.4.0",
+		"vlucas/phpdotenv": "^5.6"
 	},
 	"require-dev": {
 		"symfony/var-dumper": "^6.4"
